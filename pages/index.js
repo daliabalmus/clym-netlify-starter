@@ -11,7 +11,7 @@ export default function Home() {
 <script src="https://privacy.clymio.com/blocking.js"></script>
 <script>
 (function(d,s,i,w,o){
-var js,cjs=d.getElementsByTagName(s)[0];
+let js,cjs=d.getElementsByTagName(s)[0];
 if(d.getElementById(i))return;
 js=d.createElement('script');
 js.id=i;
